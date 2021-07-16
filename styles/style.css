@@ -27,6 +27,8 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 img {
@@ -44,9 +46,8 @@ button {
   color: white;
   background-color: black;
   border: none;
-  margin-top: 10px;
-
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 button:hover {
@@ -74,9 +75,10 @@ p.para-text {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 35px;
   letter-spacing: -0.035em;
   text-align: left;
+  width: 200px;
 }
 
 p:hover {
@@ -117,5 +119,15 @@ a {
     height: 500px;
     width: 500px;
     border-radius: 0px;
+  }
+
+  p.heading {
+    width: 450px;
+  }
+
+  p.para-text {
+    width: 250px;
+    word-spacing: 10px;
+    line-height: 30px;
   }
 }
